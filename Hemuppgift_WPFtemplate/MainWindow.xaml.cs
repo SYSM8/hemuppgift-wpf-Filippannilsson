@@ -7,7 +7,7 @@ namespace Hemuppgift_WPFtemplate
     /// </summary>
     public partial class MainWindow : Window
     {
-        //HEJ
+        //HEJ 
         public MainWindow()
         {
             InitializeComponent();
