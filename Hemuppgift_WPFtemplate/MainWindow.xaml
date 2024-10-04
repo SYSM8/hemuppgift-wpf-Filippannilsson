@@ -4,9 +4,35 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Hemuppgift_WPFtemplate"
-        mc:Ignorable="d"
+        mc:Ignorable="d" 
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="btnGrid" Content="Grid" 
+                HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+                Click="btnGrid_Click"/>
+        <Button x:Name="btnStackPanel" Content="StackPanel" 
+                HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+                Grid.Column="1" Background="LightBlue"
+                Click="btnStackPanel_Click"/>
+        <Button x:Name="btnWrapPanel" Content="WrapPanel" 
+                HorizontalAlignment="Stretch" VerticalAlignment="Stretch" 
+                Grid.Row="1" 
+                Click="btnWrapPanel_Click"/>
+        <Button x:Name="btnDockPanel" Content="DockPanel" 
+                HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+                Grid.Row="1" Grid.Column="1" 
+                Click="btnDockPanel_Click"/>
+
+
 
     </Grid>
 </Window>
