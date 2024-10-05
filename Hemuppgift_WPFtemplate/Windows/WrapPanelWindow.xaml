@@ -1,0 +1,45 @@
+﻿<Window x:Class="Hemuppgift_WPFtemplate.Windows.WrapPanelWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Hemuppgift_WPFtemplate.Windows"
+        mc:Ignorable="d"
+        Title="WrapPanelWindow" Height="450" Width="800">
+    <Grid>
+        <ScrollViewer>
+            <StackPanel>
+                <StackPanel Orientation="Horizontal" Margin="5,10,0,0">
+                    <RadioButton x:Name="radioBtnHorizontal" Content="Horizontal"
+                                 Margin="0,0,10,0" IsChecked="True"
+                                 Click="radioBtnHorizontal_Click"/>
+                    <RadioButton x:Name="radioBtnVertical" Content="Vertical"
+                                 Margin="0,0,10,0" 
+                                 Click="radioBtnVertical_Click"/>
+                </StackPanel>
+
+                <WrapPanel x:Name="ellipseWrap" Orientation="Horizontal">
+                    <Ellipse Fill="Red" Margin="5"
+                           Height="100" Width="100"/>
+                    <Ellipse Fill="Orange" Margin="5"
+                           Height="90" Width="90"/>
+                    <Ellipse Fill="Yellow" Margin="5"
+                           Height="80" Width="80"/>
+                    <Ellipse Fill="LightGreen" Margin="5"
+                           Height="70" Width="70"/>
+                    <Ellipse Fill="Green" Margin="5"
+                           Height="70" Width="70"/>
+                    <Ellipse Fill="LightBlue" Margin="5"
+                           Height="60" Width="60"/>
+                    <Ellipse Fill="Blue" Margin="5"
+                           Height="50" Width="50"/>
+                    <Ellipse Fill="Black" Margin="5"
+                           Height="50" Width="50"/>
+                </WrapPanel>
+
+            </StackPanel>
+                
+        </ScrollViewer>
+        
+    </Grid>
+</Window>

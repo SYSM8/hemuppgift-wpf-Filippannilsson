@@ -10,12 +10,15 @@
         <StackPanel>
             <StackPanel Orientation="Horizontal" Margin="5,10,0,0">
                 <RadioButton x:Name="radioBtnHorizont" Content="Horizontal" 
-                             Margin="0,0,10,0" Click="radioBtnHorizont_Click"/>
+                             Margin="0,0,10,0" IsChecked="True"
+                             Click="radioBtnHorizont_Click"/>
                 <RadioButton x:Name="radioBtnVertical" Content="Vertical" 
-                             Margin="0,0,0,10" Click="radioBtnVertical_Click"/>
+                             Margin="0,0,0,10" 
+                             Click="radioBtnVertical_Click"/>
             </StackPanel>
 
-            <StackPanel x:Name="rectStack" Orientation="Horizontal">
+            <StackPanel x:Name="rectStack" Orientation="Horizontal"
+                        HorizontalAlignment="Left">
                 <Rectangle Fill="Red" Margin="5"
                            Height="100" Width="100"/>
                 <Rectangle Fill="Orange" Margin="5"
