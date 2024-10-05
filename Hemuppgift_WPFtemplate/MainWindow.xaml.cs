@@ -18,7 +18,8 @@ namespace Hemuppgift_WPFtemplate
 
         private void btnStackPanel_Click(object sender, RoutedEventArgs e)
         {
-
+            StackPanelWindow stackPanelWindow = new StackPanelWindow();
+            stackPanelWindow.Show();
         }
 
         private void btnWrapPanel_Click(object sender, RoutedEventArgs e)
