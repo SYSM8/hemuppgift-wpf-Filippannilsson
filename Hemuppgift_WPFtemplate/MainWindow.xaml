@@ -21,7 +21,7 @@
                 Click="btnGrid_Click"/>
         <Button x:Name="btnStackPanel" Content="StackPanel" 
                 HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
-                Grid.Column="1" Background="LightBlue"
+                Grid.Column="1"
                 Click="btnStackPanel_Click"/>
         <Button x:Name="btnWrapPanel" Content="WrapPanel" 
                 HorizontalAlignment="Stretch" VerticalAlignment="Stretch" 

@@ -30,7 +30,8 @@ namespace Hemuppgift_WPFtemplate
 
         private void btnDockPanel_Click(object sender, RoutedEventArgs e)
         {
-
+            DockPanelWindow dockPanelWindow = new DockPanelWindow();
+            dockPanelWindow.Show();
         }
     }
 }
