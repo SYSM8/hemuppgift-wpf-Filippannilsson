@@ -14,9 +14,6 @@ using System.Windows.Shapes;
 
 namespace Hemuppgift_WPFtemplate.Windows
 {
-    /// <summary>
-    /// Interaction logic for DockPanelWindow.xaml
-    /// </summary>
     public partial class DockPanelWindow : Window
     {
         public DockPanelWindow()

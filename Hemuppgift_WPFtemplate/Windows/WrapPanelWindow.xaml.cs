@@ -14,9 +14,6 @@ using System.Windows.Shapes;
 
 namespace Hemuppgift_WPFtemplate.Windows
 {
-    /// <summary>
-    /// Interaction logic for WrapPanelWindow.xaml
-    /// </summary>
     public partial class WrapPanelWindow : Window
     {
         public WrapPanelWindow()
